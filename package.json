@@ -18,7 +18,7 @@
     "copy:main": "cpx ./js/main.js ./game/js/",
     "copy:plugins": "cpx ./plugins/*.js ./game/js/plugins/",
     "copy:template": "cpx ./template/**/* ./game/",
-    "copy": "run-p copy:*",
+    "copy": "node copy-all.js game/",
     "copy-all": "node copy-all.js ./corescript",
     "zip": "bestzip corescript.zip ./corescript/",
     "test": "run-s build copy",

@@ -41,7 +41,7 @@ npm run build:sprites
 npm run build:windows
 ```
 
-To test, place MV’s project in game/ and type
+To test, place a game MV’s project in the game/ directory and type
 
 ```
 npm test

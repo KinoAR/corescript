@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// StorageManager
-//
-// The static class that manages storage for saving game data.
-
 function StorageManager() {
     throw new Error('This is a static class');
 }
@@ -219,3 +214,4 @@ StorageManager.webStorageKey = function(savefileId) {
         return 'RPG File%1'.format(savefileId);
     }
 };
+

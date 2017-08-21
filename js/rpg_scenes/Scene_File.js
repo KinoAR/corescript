@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_File
-//
-// The superclass of Scene_Save and Scene_Load.
-
 function Scene_File() {
     this.initialize.apply(this, arguments);
 }
@@ -69,3 +64,4 @@ Scene_File.prototype.firstSavefileIndex = function() {
 
 Scene_File.prototype.onSavefileOk = function() {
 };
+

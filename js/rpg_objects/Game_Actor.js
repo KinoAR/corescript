@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Actor
-//
-// The game object class for an actor.
-
 function Game_Actor() {
     this.initialize.apply(this, arguments);
 }
@@ -891,3 +886,4 @@ Game_Actor.prototype.meetsUsableItemConditions = function(item) {
     }
     return Game_BattlerBase.prototype.meetsUsableItemConditions.call(this, item);
 };
+

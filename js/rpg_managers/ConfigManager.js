@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// ConfigManager
-//
-// The static class that manages the configuration data.
-
 function ConfigManager() {
     throw new Error('This is a static class');
 }
@@ -100,3 +95,4 @@ ConfigManager.readVolume = function(config, name) {
         return 100;
     }
 };
+

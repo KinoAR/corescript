@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_EquipItem
-//
-// The window for selecting an equipment item on the equipment screen.
-
 function Window_EquipItem() {
     this.initialize.apply(this, arguments);
 }
@@ -65,3 +60,4 @@ Window_EquipItem.prototype.updateHelp = function() {
 
 Window_EquipItem.prototype.playOkSound = function() {
 };
+

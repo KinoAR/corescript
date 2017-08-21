@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Switches
-//
-// The game object class for switches.
-
 function Game_Switches() {
     this.initialize.apply(this, arguments);
 }
@@ -29,3 +24,4 @@ Game_Switches.prototype.setValue = function(switchId, value) {
 Game_Switches.prototype.onChange = function() {
     $gameMap.requestRefresh();
 };
+

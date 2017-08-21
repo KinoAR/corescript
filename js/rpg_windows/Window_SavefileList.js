@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_SavefileList
-//
-// The window for selecting a save file on the save and load screens.
-
 function Window_SavefileList() {
     this.initialize.apply(this, arguments);
 }
@@ -92,3 +87,4 @@ Window_SavefileList.prototype.drawPlaytime = function(info, x, y, width) {
 
 Window_SavefileList.prototype.playOkSound = function() {
 };
+

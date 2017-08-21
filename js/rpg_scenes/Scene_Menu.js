@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Menu
-//
-// The scene class of the menu screen.
-
 function Scene_Menu() {
     this.initialize.apply(this, arguments);
 }
@@ -126,3 +121,4 @@ Scene_Menu.prototype.onFormationCancel = function() {
         this._commandWindow.activate();
     }
 };
+

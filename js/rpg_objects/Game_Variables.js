@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Variables
-//
-// The game object class for variables.
-
 function Game_Variables() {
     this.initialize.apply(this, arguments);
 }
@@ -32,3 +27,4 @@ Game_Variables.prototype.setValue = function(variableId, value) {
 Game_Variables.prototype.onChange = function() {
     $gameMap.requestRefresh();
 };
+

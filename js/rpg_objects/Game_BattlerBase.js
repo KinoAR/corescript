@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_BattlerBase
-//
-// The superclass of Game_Battler. It mainly contains parameters calculation.
-
 function Game_BattlerBase() {
     this.initialize.apply(this, arguments);
 }
@@ -756,3 +751,4 @@ Game_BattlerBase.prototype.canAttack = function() {
 Game_BattlerBase.prototype.canGuard = function() {
     return this.canUse($dataSkills[this.guardSkillId()]);
 };
+

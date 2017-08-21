@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_EquipStatus
-//
-// The window for displaying parameter changes on the equipment screen.
-
 function Window_EquipStatus() {
     this.initialize.apply(this, arguments);
 }
@@ -87,3 +82,4 @@ Window_EquipStatus.prototype.drawNewParam = function(x, y, paramId) {
     this.changeTextColor(this.paramchangeTextColor(diffvalue));
     this.drawText(newValue, x, y, 48, 'right');
 };
+

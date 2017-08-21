@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Spriteset_Battle
-//
-// The set of sprites on the battle screen.
-
 function Spriteset_Battle() {
     this.initialize.apply(this, arguments);
 }

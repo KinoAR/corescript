@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_ShopStatus
-//
-// The window for displaying number of items in possession and the actor's
-// equipment on the shop screen.
-
 function Window_ShopStatus() {
     this.initialize.apply(this, arguments);
 }
@@ -150,3 +144,4 @@ Window_ShopStatus.prototype.changePage = function() {
     this.refresh();
     SoundManager.playCursor();
 };
+

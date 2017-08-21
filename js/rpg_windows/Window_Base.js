@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_Base
-//
-// The superclass of all windows within the game.
-
 function Window_Base() {
     this.initialize.apply(this, arguments);
 }
@@ -703,3 +698,4 @@ Window_Base.prototype.reserveFaceImages = function() {
         ImageManager.reserveFace(actor.faceName());
     }, this);
 };
+

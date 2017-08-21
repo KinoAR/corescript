@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_ChoiceList
-//
-// The window used for the event command [Show Choices].
-
 function Window_ChoiceList() {
     this.initialize.apply(this, arguments);
 }
@@ -131,3 +126,4 @@ Window_ChoiceList.prototype.callCancelHandler = function() {
     this._messageWindow.terminateMessage();
     this.close();
 };
+

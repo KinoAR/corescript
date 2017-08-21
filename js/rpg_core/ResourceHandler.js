@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that handles resource loading.
- *
- * @class ResourceHandler
- */
 function ResourceHandler() {
     throw new Error('This is a static class');
 }

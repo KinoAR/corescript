@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_StateIcon
-//
-// The sprite for displaying state icons.
-
 function Sprite_StateIcon() {
     this.initialize.apply(this, arguments);
 }
@@ -75,3 +70,4 @@ Sprite_StateIcon.prototype.updateFrame = function() {
     var sy = Math.floor(this._iconIndex / 16) * ph;
     this.setFrame(sx, sy, pw, ph);
 };
+

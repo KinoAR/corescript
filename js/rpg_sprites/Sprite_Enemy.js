@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Enemy
-//
-// The sprite for displaying an enemy.
-
 function Sprite_Enemy() {
     this.initialize.apply(this, arguments);
 }
@@ -255,3 +250,4 @@ Sprite_Enemy.prototype.damageOffsetX = function() {
 Sprite_Enemy.prototype.damageOffsetY = function() {
     return -8;
 };
+

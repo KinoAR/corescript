@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_ShopCommand
-//
-// The window for selecting buy/sell on the shop screen.
-
 function Window_ShopCommand() {
     this.initialize.apply(this, arguments);
 }
@@ -29,3 +24,4 @@ Window_ShopCommand.prototype.makeCommandList = function() {
     this.addCommand(TextManager.sell,   'sell',   !this._purchaseOnly);
     this.addCommand(TextManager.cancel, 'cancel');
 };
+

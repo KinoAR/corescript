@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Battle
-//
-// The scene class of the battle screen.
-
 function Scene_Battle() {
     this.initialize.apply(this, arguments);
 }
@@ -402,3 +397,4 @@ Scene_Battle.prototype.endCommandSelection = function() {
     this._actorCommandWindow.close();
     this._statusWindow.deselect();
 };
+

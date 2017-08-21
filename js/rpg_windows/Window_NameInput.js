@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_NameInput
-//
-// The window for selecting text characters on the name input screen.
-
 function Window_NameInput() {
     this.initialize.apply(this, arguments);
 }
@@ -264,3 +259,4 @@ Window_NameInput.prototype.onNameOk = function() {
         this.callOkHandler();
     }
 };
+

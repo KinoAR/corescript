@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// ImageManager
-//
-// The static class that loads images, creates bitmap objects and retains them.
-
 function ImageManager() {
     throw new Error('This is a static class');
 }
@@ -308,3 +303,4 @@ ImageManager.update = function(){
 ImageManager.clearRequest = function(){
     this._requestQueue.clear();
 };
+

@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// SoundManager
-//
-// The static class that plays sound effects defined in the database.
-
 function SoundManager() {
     throw new Error('This is a static class');
 }
@@ -121,3 +116,4 @@ SoundManager.playUseItem = function() {
 SoundManager.playUseSkill = function() {
     this.playSystemSound(23);
 };
+

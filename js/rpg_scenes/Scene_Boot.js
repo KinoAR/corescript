@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Boot
-//
-// The scene class for initializing the entire game.
-
 function Scene_Boot() {
     this.initialize.apply(this, arguments);
 }
@@ -85,3 +80,4 @@ Scene_Boot.prototype.checkPlayerLocation = function() {
         throw new Error('Player\'s starting position is not set');
     }
 };
+

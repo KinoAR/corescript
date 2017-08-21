@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Temp
-//
-// The game object class for temporary data that is not included in save data.
-
 function Game_Temp() {
     this.initialize.apply(this, arguments);
 }
@@ -55,3 +50,4 @@ Game_Temp.prototype.destinationX = function() {
 Game_Temp.prototype.destinationY = function() {
     return this._destinationY;
 };
+

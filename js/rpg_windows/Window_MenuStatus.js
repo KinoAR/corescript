@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_MenuStatus
-//
-// The window for displaying party member status on the menu screen.
-
 function Window_MenuStatus() {
     this.initialize.apply(this, arguments);
 }
@@ -115,3 +110,4 @@ Window_MenuStatus.prototype.setPendingIndex = function(index) {
     this.redrawItem(this._pendingIndex);
     this.redrawItem(lastPendingIndex);
 };
+

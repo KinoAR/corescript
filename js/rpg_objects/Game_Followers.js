@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Followers
-//
-// The wrapper class for a follower array.
-
 function Game_Followers() {
     this.initialize.apply(this, arguments);
 }
@@ -118,3 +113,4 @@ Game_Followers.prototype.isSomeoneCollided = function(x, y) {
         return follower.pos(x, y);
     }, this);
 };
+

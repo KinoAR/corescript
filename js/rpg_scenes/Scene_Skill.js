@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Skill
-//
-// The scene class of the skill screen.
-
 function Scene_Skill() {
     this.initialize.apply(this, arguments);
 }
@@ -102,3 +97,4 @@ Scene_Skill.prototype.onActorChange = function() {
     this.refreshActor();
     this._skillTypeWindow.activate();
 };
+

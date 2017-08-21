@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The tilemap which displays 2D tile-based game map.
- *
- * @class Tilemap
- * @constructor
- */
 function Tilemap() {
     this.initialize.apply(this, arguments);
 }
@@ -962,3 +955,4 @@ Tilemap.WATERFALL_AUTOTILE_TABLE = [
  * @param {Number} index The index to get the child from
  * @return {Object} The child that was removed
  */
+

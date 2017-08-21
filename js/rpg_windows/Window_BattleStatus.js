@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_BattleStatus
-//
-// The window for displaying the status of party members on the battle screen.
-
 function Window_BattleStatus() {
     this.initialize.apply(this, arguments);
 }
@@ -87,3 +82,4 @@ Window_BattleStatus.prototype.drawGaugeAreaWithoutTp = function(rect, actor) {
     this.drawActorHp(actor, rect.x + 0, rect.y, 201);
     this.drawActorMp(actor, rect.x + 216,  rect.y, 114);
 };
+

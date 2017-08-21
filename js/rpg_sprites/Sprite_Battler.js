@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Battler
-//
-// The superclass of Sprite_Actor and Sprite_Enemy.
-
 function Sprite_Battler() {
     this.initialize.apply(this, arguments);
 }
@@ -187,3 +182,4 @@ Sprite_Battler.prototype.isMoving = function() {
 Sprite_Battler.prototype.inHomePosition = function() {
     return this._offsetX === 0 && this._offsetY === 0;
 };
+

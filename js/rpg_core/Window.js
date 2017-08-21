@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The window in the game.
- *
- * @class Window
- * @constructor
- */
 function Window() {
     this.initialize.apply(this, arguments);
 }
@@ -684,3 +677,4 @@ Window.prototype._updatePauseSign = function() {
  * @param {Number} index The index to get the child from
  * @return {Object} The child that was removed
  */
+

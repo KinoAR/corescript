@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Actor
-//
-// The sprite for displaying an actor.
-
 function Sprite_Actor() {
     this.initialize.apply(this, arguments);
 }
@@ -271,3 +266,4 @@ Sprite_Actor.prototype.damageOffsetX = function() {
 Sprite_Actor.prototype.damageOffsetY = function() {
     return 0;
 };
+

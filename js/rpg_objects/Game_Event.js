@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Event
-//
-// The game object class for an event. It contains functionality for event page
-// switching and running parallel process events.
-
 function Game_Event() {
     this.initialize.apply(this, arguments);
 }
@@ -336,3 +330,4 @@ Game_Event.prototype.forceMoveRoute = function(moveRoute) {
     Game_Character.prototype.forceMoveRoute.call(this, moveRoute);
     this._prelockDirection = 0;
 };
+

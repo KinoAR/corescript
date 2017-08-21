@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Picture
-//
-// The game object class for a picture.
-
 function Game_Picture() {
     this.initialize.apply(this, arguments);
 }
@@ -168,3 +163,4 @@ Game_Picture.prototype.updateRotation = function() {
         this._angle += this._rotationSpeed / 2;
     }
 };
+

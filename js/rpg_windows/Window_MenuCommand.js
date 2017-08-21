@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_MenuCommand
-//
-// The window for selecting a command on the menu screen.
-
 function Window_MenuCommand() {
     this.initialize.apply(this, arguments);
 }
@@ -132,3 +127,4 @@ Window_MenuCommand.prototype.processOk = function() {
 Window_MenuCommand.prototype.selectLast = function() {
     this.selectSymbol(Window_MenuCommand._lastCommandSymbol);
 };
+

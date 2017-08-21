@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that carries out graphics processing.
- *
- * @class Graphics
- */
 function Graphics() {
     throw new Error('This is a static class');
 }
@@ -1238,3 +1232,4 @@ Graphics._cancelFullScreen = function() {
         document.msExitFullscreen();
     }
 };
+

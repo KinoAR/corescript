@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Title
-//
-// The scene class of the title screen.
-
 function Scene_Title() {
     this.initialize.apply(this, arguments);
 }
@@ -110,3 +105,4 @@ Scene_Title.prototype.playTitleMusic = function() {
     AudioManager.stopBgs();
     AudioManager.stopMe();
 };
+

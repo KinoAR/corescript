@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_TitleCommand
-//
-// The window for selecting New Game/Continue on the title screen.
-
 function Window_TitleCommand() {
     this.initialize.apply(this, arguments);
 }
@@ -54,3 +49,4 @@ Window_TitleCommand.prototype.selectLast = function() {
         this.selectSymbol('continue');
     }
 };
+

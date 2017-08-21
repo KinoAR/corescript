@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Base
-//
-// The sprite class with a feature which displays animations.
-
 function Sprite_Base() {
     this.initialize.apply(this, arguments);
 }
@@ -62,3 +57,4 @@ Sprite_Base.prototype.startAnimation = function(animation, mirror, delay) {
 Sprite_Base.prototype.isAnimationPlaying = function() {
     return this._animationSprites.length > 0;
 };
+

@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_BattleLog
-//
-// The window for displaying battle progress. No frame is displayed, but it is
-// handled as a window for convenience.
-
 function Window_BattleLog() {
     this.initialize.apply(this, arguments);
 }
@@ -586,3 +580,4 @@ Window_BattleLog.prototype.makeTpDamageText = function(target) {
         return '';
     }
 };
+

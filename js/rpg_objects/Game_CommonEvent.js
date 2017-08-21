@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_CommonEvent
-//
-// The game object class for a common event. It contains functionality for
-// running parallel process events.
-
 function Game_CommonEvent() {
     this.initialize.apply(this, arguments);
 }
@@ -44,3 +38,4 @@ Game_CommonEvent.prototype.update = function() {
         this._interpreter.update();
     }
 };
+

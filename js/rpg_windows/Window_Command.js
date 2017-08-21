@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_Command
-//
-// The superclass of windows for selecting a command.
-
 function Window_Command() {
     this.initialize.apply(this, arguments);
 }
@@ -151,3 +146,4 @@ Window_Command.prototype.refresh = function() {
     this.createContents();
     Window_Selectable.prototype.refresh.call(this);
 };
+

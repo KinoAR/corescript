@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Actors
-//
-// The wrapper class for an actor array.
-
 function Game_Actors() {
     this.initialize.apply(this, arguments);
 }
@@ -20,3 +15,4 @@ Game_Actors.prototype.actor = function(actorId) {
     }
     return null;
 };
+

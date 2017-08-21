@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Spriteset_Map
-//
-// The set of sprites on the map screen.
-
 function Spriteset_Map() {
     this.initialize.apply(this, arguments);
 }
@@ -168,3 +163,4 @@ Spriteset_Map.prototype.updateWeather = function() {
     this._weather.origin.x = $gameMap.displayX() * $gameMap.tileWidth();
     this._weather.origin.y = $gameMap.displayY() * $gameMap.tileHeight();
 };
+

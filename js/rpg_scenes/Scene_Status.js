@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Status
-//
-// The scene class of the status screen.
-
 function Scene_Status() {
     this.initialize.apply(this, arguments);
 }
@@ -38,3 +33,4 @@ Scene_Status.prototype.onActorChange = function() {
     this.refreshActor();
     this._statusWindow.activate();
 };
+

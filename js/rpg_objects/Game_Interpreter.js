@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Interpreter
-//
-// The interpreter for running event commands.
-
 function Game_Interpreter() {
     this.initialize.apply(this, arguments);
 }

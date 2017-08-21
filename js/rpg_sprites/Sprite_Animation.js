@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Animation
-//
-// The sprite for displaying an animation.
-
 function Sprite_Animation() {
     this.initialize.apply(this, arguments);
 }
@@ -306,3 +301,4 @@ Sprite_Animation.prototype.startHiding = function(duration) {
     this._hidingDuration = duration;
     this._target.hide();
 };
+

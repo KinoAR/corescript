@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_DebugRange
-//
-// The window for selecting a block of switches/variables on the debug screen.
-
 function Window_DebugRange() {
     this.initialize.apply(this, arguments);
 }
@@ -94,3 +89,4 @@ Window_DebugRange.prototype.setEditWindow = function(editWindow) {
     this._editWindow = editWindow;
     this.update();
 };
+

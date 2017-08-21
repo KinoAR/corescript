@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_BattleEnemy
-//
-// The window for selecting a target enemy on the battle screen.
-
 function Window_BattleEnemy() {
     this.initialize.apply(this, arguments);
 }
@@ -75,3 +70,4 @@ Window_BattleEnemy.prototype.select = function(index) {
     Window_Selectable.prototype.select.call(this, index);
     $gameTroop.select(this.enemy());
 };
+

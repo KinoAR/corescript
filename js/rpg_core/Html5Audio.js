@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that handles HTML5 Audio.
- *
- * @class Html5Audio
- * @constructor
- */
 function Html5Audio() {
     throw new Error('This is a static class');
 }
@@ -443,3 +436,4 @@ Html5Audio._applyTweenValue = function (volume) {
 
     Html5Audio._audioElement.volume = Html5Audio._tweenGain;
 };
+

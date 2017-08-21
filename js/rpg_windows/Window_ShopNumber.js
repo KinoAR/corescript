@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_ShopNumber
-//
-// The window for inputting quantity of items to buy or sell on the shop
-// screen.
-
 function Window_ShopNumber() {
     this.initialize.apply(this, arguments);
 }
@@ -222,3 +216,4 @@ Window_ShopNumber.prototype.onButtonDown2 = function() {
 Window_ShopNumber.prototype.onButtonOk = function() {
     this.processOk();
 };
+

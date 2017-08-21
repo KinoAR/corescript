@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Damage
-//
-// The sprite for displaying a popup damage.
-
 function Sprite_Damage() {
     this.initialize.apply(this, arguments);
 }
@@ -117,3 +112,4 @@ Sprite_Damage.prototype.updateOpacity = function() {
 Sprite_Damage.prototype.isPlaying = function() {
     return this._duration > 0;
 };
+

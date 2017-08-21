@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Timer
-//
-// The sprite for displaying the timer.
-
 function Sprite_Timer() {
     this.initialize.apply(this, arguments);
 }
@@ -58,3 +53,4 @@ Sprite_Timer.prototype.updatePosition = function() {
 Sprite_Timer.prototype.updateVisibility = function() {
     this.visible = $gameTimer.isWorking();
 };
+

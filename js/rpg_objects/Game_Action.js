@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Action
-//
-// The game object class for a battle action.
-
 function Game_Action() {
     this.initialize.apply(this, arguments);
 }
@@ -794,3 +789,4 @@ Game_Action.prototype.applyGlobal = function() {
         }
     }, this);
 };
+

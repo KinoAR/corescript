@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Character
-//
-// The sprite for displaying a character.
-
 function Sprite_Character() {
     this.initialize.apply(this, arguments);
 }
@@ -265,3 +260,4 @@ Sprite_Character.prototype.endBalloon = function() {
 Sprite_Character.prototype.isBalloonPlaying = function() {
     return !!this._balloonSprite;
 };
+

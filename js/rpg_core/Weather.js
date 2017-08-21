@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The weather effect which displays rain, storm, or snow.
- *
- * @class Weather
- * @constructor
- */
 function Weather() {
     this.initialize.apply(this, arguments);
 }
@@ -197,3 +190,4 @@ Weather.prototype._rebornSprite = function(sprite) {
     sprite.ay = Math.randomInt(Graphics.height + 200) - 200 + this.origin.y;
     sprite.opacity = 160 + Math.randomInt(60);
 };
+

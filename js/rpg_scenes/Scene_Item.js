@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Item
-//
-// The scene class of the item screen.
-
 function Scene_Item() {
     this.initialize.apply(this, arguments);
 }
@@ -78,3 +73,4 @@ Scene_Item.prototype.useItem = function() {
     Scene_ItemBase.prototype.useItem.call(this);
     this._itemWindow.redrawCurrentItem();
 };
+

@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that handles input data from the keyboard and gamepads.
- *
- * @class Input
- */
 function Input() {
     throw new Error('This is a static class');
 }
@@ -484,3 +478,4 @@ Input._makeNumpadDirection = function(x, y) {
 Input._isEscapeCompatible = function(keyName) {
     return keyName === 'cancel' || keyName === 'menu';
 };
+

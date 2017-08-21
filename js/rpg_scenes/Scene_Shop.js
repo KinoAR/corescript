@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Shop
-//
-// The scene class of the shop screen.
-
 function Scene_Shop() {
     this.initialize.apply(this, arguments);
 }
@@ -259,3 +254,4 @@ Scene_Shop.prototype.buyingPrice = function() {
 Scene_Shop.prototype.sellingPrice = function() {
     return Math.floor(this._item.price / 2);
 };
+

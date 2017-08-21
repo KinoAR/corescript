@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The tilemap which displays 2D tile-based game map using shaders
- *
- * @class Tilemap
- * @constructor
- */
 function ShaderTilemap() {
     Tilemap.apply(this, arguments);
     this.roundPixels = true;
@@ -17,6 +10,7 @@ ShaderTilemap.prototype.constructor = ShaderTilemap;
 PIXI.glCore.VertexArrayObject.FORCE_NATIVE = true;
 PIXI.GC_MODES.DEFAULT = PIXI.GC_MODES.AUTO;
 PIXI.tilemap.TileRenderer.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
+PIXI.tilemap.TileRenderer.DO_CLEAR = true;
 
 /**
  * Uploads animation state in renderer
@@ -27,8 +21,8 @@ PIXI.tilemap.TileRenderer.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 ShaderTilemap.prototype._hackRenderer = function(renderer) {
     var af = this.animationFrame % 4;
     if (af==3) af = 1;
-    renderer.plugins.tile.tileAnim[0] = af * this._tileWidth;
-    renderer.plugins.tile.tileAnim[1] = (this.animationFrame % 3) * this._tileHeight;
+    renderer.plugins.tilemap.tileAnim[0] = af * this._tileWidth;
+    renderer.plugins.tilemap.tileAnim[1] = (this.animationFrame % 3) * this._tileHeight;
     return renderer;
 };
 

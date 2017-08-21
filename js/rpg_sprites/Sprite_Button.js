@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Button
-//
-// The sprite for displaying a button.
-
 function Sprite_Button() {
     this.initialize.apply(this, arguments);
 }
@@ -106,3 +101,4 @@ Sprite_Button.prototype.canvasToLocalY = function(y) {
     }
     return y;
 };
+

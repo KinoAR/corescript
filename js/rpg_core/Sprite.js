@@ -1,11 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The basic object that is rendered to the game screen.
- *
- * @class Sprite
- * @constructor
- * @param {Bitmap} bitmap The image for the sprite
- */
 function Sprite() {
     this.initialize.apply(this, arguments);
 }
@@ -575,3 +567,4 @@ Sprite.prototype._renderWebGL = function(renderer) {
  * @param {Number} index The index to get the child from
  * @return {Object} The child that was removed
  */
+

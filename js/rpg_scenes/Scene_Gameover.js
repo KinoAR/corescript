@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Gameover
-//
-// The scene class of the game over screen.
-
 function Scene_Gameover() {
     this.initialize.apply(this, arguments);
 }

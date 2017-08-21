@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// PluginManager
-//
-// The static class that manages the plugins.
-
 function PluginManager() {
     throw new Error('This is a static class');
 }

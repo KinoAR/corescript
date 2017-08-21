@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_EquipCommand
-//
-// The window for selecting a command on the equipment screen.
-
 function Window_EquipCommand() {
     this.initialize.apply(this, arguments);
 }
@@ -28,3 +23,4 @@ Window_EquipCommand.prototype.makeCommandList = function() {
     this.addCommand(TextManager.optimize, 'optimize');
     this.addCommand(TextManager.clear,    'clear');
 };
+

@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Character
-//
-// The superclass of Game_Player, Game_Follower, GameVehicle, and Game_Event.
-
 function Game_Character() {
     this.initialize.apply(this, arguments);
 }
@@ -557,3 +552,4 @@ Game_Character.prototype.findDirectionTo = function(goalX, goalY) {
 Game_Character.prototype.searchLimit = function() {
     return 12;
 };
+

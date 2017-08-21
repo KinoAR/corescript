@@ -1,12 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The basic object that represents an image.
- *
- * @class Bitmap
- * @constructor
- * @param {Number} width The width of the bitmap
- * @param {Number} height The height of the bitmap
- */
 function Bitmap() {
     this.initialize.apply(this, arguments);
 }
@@ -1003,3 +994,4 @@ Bitmap.prototype.startRequest = function(){
         this._requestImage(this._url);
     }
 };
+

@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The layer which contains game windows.
- *
- * @class WindowLayer
- * @constructor
- */
 function WindowLayer() {
     this.initialize.apply(this, arguments);
 }
@@ -294,3 +287,4 @@ WindowLayer.prototype._maskWindow = function(window, shift) {
  * @param {Number} index The index to get the child from
  * @return {Object} The child that was removed
  */
+

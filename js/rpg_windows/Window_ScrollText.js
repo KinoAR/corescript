@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_ScrollText
-//
-// The window for displaying scrolling text. No frame is displayed, but it
-// is handled as a window for convenience.
-
 function Window_ScrollText() {
     this.initialize.apply(this, arguments);
 }
@@ -86,3 +80,4 @@ Window_ScrollText.prototype.terminateMessage = function() {
     $gameMessage.clear();
     this.hide();
 };
+

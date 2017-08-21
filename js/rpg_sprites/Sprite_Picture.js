@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Picture
-//
-// The sprite for displaying a picture.
-
 function Sprite_Picture() {
     this.initialize.apply(this, arguments);
 }
@@ -92,3 +87,4 @@ Sprite_Picture.prototype.updateOther = function() {
 Sprite_Picture.prototype.loadBitmap = function() {
     this.bitmap = ImageManager.loadPicture(this._pictureName);
 };
+

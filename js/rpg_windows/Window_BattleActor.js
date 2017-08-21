@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_BattleActor
-//
-// The window for selecting a target actor on the battle screen.
-
 function Window_BattleActor() {
     this.initialize.apply(this, arguments);
 }
@@ -36,3 +31,4 @@ Window_BattleActor.prototype.select = function(index) {
 Window_BattleActor.prototype.actor = function() {
     return $gameParty.members()[this.index()];
 };
+

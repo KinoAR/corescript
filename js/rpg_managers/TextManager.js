@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// TextManager
-//
-// The static class that handles terms and messages.
-
 function TextManager() {
     throw new Error('This is a static class');
 }
@@ -124,3 +119,4 @@ Object.defineProperties(TextManager, {
     buffRemove      : TextManager.getter('message', 'buffRemove'),
     actionFailure   : TextManager.getter('message', 'actionFailure'),
 });
+

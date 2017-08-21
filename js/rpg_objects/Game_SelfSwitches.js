@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_SelfSwitches
-//
-// The game object class for self switches.
-
 function Game_SelfSwitches() {
     this.initialize.apply(this, arguments);
 }
@@ -31,3 +26,4 @@ Game_SelfSwitches.prototype.setValue = function(key, value) {
 Game_SelfSwitches.prototype.onChange = function() {
     $gameMap.requestRefresh();
 };
+

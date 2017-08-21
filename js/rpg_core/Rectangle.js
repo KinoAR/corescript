@@ -1,14 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The rectangle class.
- *
- * @class Rectangle
- * @constructor
- * @param {Number} x The x coordinate for the upper-left corner
- * @param {Number} y The y coordinate for the upper-left corner
- * @param {Number} width The width of the rectangle
- * @param {Number} height The height of the rectangle
- */
 function Rectangle() {
     this.initialize.apply(this, arguments);
 }
@@ -55,3 +44,4 @@ Rectangle.emptyRectangle = new Rectangle(0, 0, 0, 0);
  * @property height
  * @type Number
  */
+

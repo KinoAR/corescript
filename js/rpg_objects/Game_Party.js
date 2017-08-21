@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Party
-//
-// The game object class for the party. Information such as gold and items is
-// included.
-
 function Game_Party() {
     this.initialize.apply(this, arguments);
 }
@@ -450,3 +444,4 @@ Game_Party.prototype.requestMotionRefresh = function() {
         actor.requestMotionRefresh();
     });
 };
+

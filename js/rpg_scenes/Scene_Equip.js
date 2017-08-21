@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Equip
-//
-// The scene class of the equipment screen.
-
 function Scene_Equip() {
     this.initialize.apply(this, arguments);
 }
@@ -128,3 +123,4 @@ Scene_Equip.prototype.onActorChange = function() {
     this.refreshActor();
     this._commandWindow.activate();
 };
+

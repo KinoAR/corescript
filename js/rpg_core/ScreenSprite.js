@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The sprite which covers the entire game screen.
- *
- * @class ScreenSprite
- * @constructor
- */
 function ScreenSprite() {
     this.initialize.apply(this, arguments);
 }
@@ -117,3 +110,4 @@ ScreenSprite.prototype.setColor = function (r, g, b) {
         graphics.drawRect(-Graphics.width * 5, -Graphics.height * 5, Graphics.width * 10, Graphics.height * 10);
     }
 };
+

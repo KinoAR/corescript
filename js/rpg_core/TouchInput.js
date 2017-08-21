@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that handles input data from the mouse and touchscreen.
- *
- * @class TouchInput
- */
 function TouchInput() {
     throw new Error('This is a static class');
 }
@@ -492,3 +486,4 @@ TouchInput._onRelease = function(x, y) {
     this._x = x;
     this._y = y;
 };
+

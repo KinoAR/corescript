@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// AudioManager
-//
-// The static class that handles BGM, BGS, ME and SE.
-
 function AudioManager() {
     throw new Error('This is a static class');
 }
@@ -418,3 +413,4 @@ AudioManager.checkWebAudioError = function(webAudio) {
         throw new Error('Failed to load: ' + webAudio.url);
     }
 };
+

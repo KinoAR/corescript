@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_HorzCommand
-//
-// The command window for the horizontal selection format.
-
 function Window_HorzCommand() {
     this.initialize.apply(this, arguments);
 }
@@ -25,3 +20,4 @@ Window_HorzCommand.prototype.maxCols = function() {
 Window_HorzCommand.prototype.itemTextAlign = function() {
     return 'center';
 };
+

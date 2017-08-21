@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// SceneManager
-//
-// The static class that manages scene transitions.
-
 function SceneManager() {
     throw new Error('This is a static class');
 }
@@ -360,3 +355,4 @@ SceneManager.resume = function() {
         this._accumulator = 0;
     }
 };
+

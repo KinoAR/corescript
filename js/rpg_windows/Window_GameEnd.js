@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_GameEnd
-//
-// The window for selecting "Go to Title" on the game end screen.
-
 function Window_GameEnd() {
     this.initialize.apply(this, arguments);
 }
@@ -30,3 +25,4 @@ Window_GameEnd.prototype.makeCommandList = function() {
     this.addCommand(TextManager.toTitle, 'toTitle');
     this.addCommand(TextManager.cancel,  'cancel');
 };
+

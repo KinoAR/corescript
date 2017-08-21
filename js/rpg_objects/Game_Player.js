@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Player
-//
-// The game object class for the player. It contains event starting
-// determinants and map scrolling functions.
-
 function Game_Player() {
     this.initialize.apply(this, arguments);
 }
@@ -618,3 +612,4 @@ Game_Player.prototype.areFollowersGathering = function() {
 Game_Player.prototype.areFollowersGathered = function() {
     return this._followers.areGathered();
 };
+

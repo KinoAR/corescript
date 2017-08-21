@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_CharacterBase
-//
-// The superclass of Game_Character. It handles basic information, such as
-// coordinates and images, shared by all characters.
-
 function Game_CharacterBase() {
     this.initialize.apply(this, arguments);
 }
@@ -588,3 +582,4 @@ Game_CharacterBase.prototype.endAnimation = function() {
 Game_CharacterBase.prototype.endBalloon = function() {
     this._balloonPlaying = false;
 };
+

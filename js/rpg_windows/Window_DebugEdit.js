@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_DebugEdit
-//
-// The window for displaying switches and variables on the debug screen.
-
 function Window_DebugEdit() {
     this.initialize.apply(this, arguments);
 }

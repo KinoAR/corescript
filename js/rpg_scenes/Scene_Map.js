@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Map
-//
-// The scene class of the map screen.
-
 function Scene_Map() {
     this.initialize.apply(this, arguments);
 }
@@ -358,3 +353,4 @@ Scene_Map.prototype.startFlashForEncounter = function(duration) {
 Scene_Map.prototype.encounterEffectSpeed = function() {
     return 60;
 };
+

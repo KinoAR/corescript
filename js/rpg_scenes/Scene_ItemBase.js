@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_ItemBase
-//
-// The superclass of Scene_Item and Scene_Skill.
-
 function Scene_ItemBase() {
     this.initialize.apply(this, arguments);
 }
@@ -128,3 +123,4 @@ Scene_ItemBase.prototype.checkCommonEvent = function() {
         SceneManager.goto(Scene_Map);
     }
 };
+

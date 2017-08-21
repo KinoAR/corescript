@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_MenuBase
-//
-// The superclass of all the menu-type scenes.
-
 function Scene_MenuBase() {
     this.initialize.apply(this, arguments);
 }
@@ -58,3 +53,4 @@ Scene_MenuBase.prototype.previousActor = function() {
 
 Scene_MenuBase.prototype.onActorChange = function() {
 };
+

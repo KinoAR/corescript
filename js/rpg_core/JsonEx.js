@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that handles JSON with object information.
- *
- * @class JsonEx
- */
 function JsonEx() {
     throw new Error('This is a static class');
 }
@@ -238,3 +232,5 @@ JsonEx._resetPrototype = function(value, prototype) {
     }
     return value;
 };
+
+

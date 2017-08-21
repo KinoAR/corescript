@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Timer
-//
-// The game object class for the timer.
-
 function Game_Timer() {
     this.initialize.apply(this, arguments);
 }
@@ -41,3 +36,4 @@ Game_Timer.prototype.seconds = function() {
 Game_Timer.prototype.onExpire = function() {
     BattleManager.abort();
 };
+

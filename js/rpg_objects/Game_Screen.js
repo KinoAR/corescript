@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Screen
-//
-// The game object class for screen effect data, such as changes in color tone
-// and flashes.
-
 function Game_Screen() {
     this.initialize.apply(this, arguments);
 }
@@ -314,3 +308,4 @@ Game_Screen.prototype.erasePicture = function(pictureId) {
     var realPictureId = this.realPictureId(pictureId);
     this._pictures[realPictureId] = null;
 };
+

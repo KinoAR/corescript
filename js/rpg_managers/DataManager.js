@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// DataManager
-//
-// The static class that manages the database and game objects.
-
 function DataManager() {
     throw new Error('This is a static class');
 }
@@ -451,3 +446,4 @@ DataManager.extractSaveContents = function(contents) {
     $gameMap           = contents.map;
     $gamePlayer        = contents.player;
 };
+

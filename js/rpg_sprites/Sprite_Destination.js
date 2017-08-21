@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Sprite_Destination
-//
-// The sprite for displaying the destination place of the touch input.
-
 function Sprite_Destination() {
     this.initialize.apply(this, arguments);
 }
@@ -54,3 +49,4 @@ Sprite_Destination.prototype.updateAnimation = function() {
     this.scale.x = 1 + this._frameCount / 20;
     this.scale.y = this.scale.x;
 };
+

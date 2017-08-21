@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_Message
-//
-// The window for displaying text messages.
-
 function Window_Message() {
     this.initialize.apply(this, arguments);
 }
@@ -327,3 +322,4 @@ Window_Message.prototype.startPause = function() {
     this.startWait(10);
     this.pause = true;
 };
+

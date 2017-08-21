@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// BattleManager
-//
-// The static class that manages battle progress.
-
 function BattleManager() {
     throw new Error('This is a static class');
 }
@@ -653,3 +648,4 @@ BattleManager.gainDropItems = function() {
         $gameParty.gainItem(item, 1);
     });
 };
+

@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Debug
-//
-// The scene class of the debug screen.
-
 function Scene_Debug() {
     this.initialize.apply(this, arguments);
 }
@@ -75,3 +70,4 @@ Scene_Debug.prototype.helpText = function() {
                 'Pagedown : +10');
     }
 };
+

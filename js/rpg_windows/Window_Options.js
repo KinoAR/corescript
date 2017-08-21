@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_Options
-//
-// The window for changing various settings on the options screen.
-
 function Window_Options() {
     this.initialize.apply(this, arguments);
 }
@@ -143,3 +138,4 @@ Window_Options.prototype.getConfigValue = function(symbol) {
 Window_Options.prototype.setConfigValue = function(symbol, volume) {
     ConfigManager[symbol] = volume;
 };
+

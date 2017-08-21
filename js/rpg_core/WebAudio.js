@@ -1,11 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The audio object of Web Audio API.
- *
- * @class WebAudio
- * @constructor
- * @param {String} url The url of the audio file
- */
 function WebAudio() {
     this.initialize.apply(this, arguments);
 }
@@ -788,3 +780,4 @@ WebAudio.prototype._readFourCharacters = function(array, index) {
     }
     return string;
 };
+

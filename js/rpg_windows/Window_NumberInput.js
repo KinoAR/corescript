@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_NumberInput
-//
-// The window used for the event command [Input Number].
-
 function Window_NumberInput() {
     this.initialize.apply(this, arguments);
 }
@@ -213,3 +208,4 @@ Window_NumberInput.prototype.onButtonOk = function() {
     this.processOk();
     this.hideButtons();
 };
+

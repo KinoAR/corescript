@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_EventItem
-//
-// The window used for the event command [Select Item].
-
 function Window_EventItem() {
     this.initialize.apply(this, arguments);
 }
@@ -67,3 +62,4 @@ Window_EventItem.prototype.onCancel = function() {
     this._messageWindow.terminateMessage();
     this.close();
 };
+

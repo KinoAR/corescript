@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Battler
-//
-// The superclass of Game_Actor and Game_Enemy. It contains methods for sprites
-// and actions.
-
 function Game_Battler() {
     this.initialize.apply(this, arguments);
 }
@@ -538,3 +532,4 @@ Game_Battler.prototype.performSubstitute = function(target) {
 
 Game_Battler.prototype.performCollapse = function() {
 };
+

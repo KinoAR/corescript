@@ -1,10 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The root object of the display tree.
- *
- * @class Stage
- * @constructor
- */
 function Stage() {
     this.initialize.apply(this, arguments);
 }
@@ -58,3 +51,4 @@ Stage.prototype.initialize = function() {
  * @param {Number} index The index to get the child from
  * @return {Object} The child that was removed
  */
+

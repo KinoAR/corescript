@@ -1,8 +1,3 @@
-/**
- * Cache for images, audio, or any other kind of resource
- * @param manager
- * @constructor
- */
 function CacheMap(manager) {
     this.manager = manager;
     this._inner = {};
@@ -67,3 +62,4 @@ CacheMap.prototype.update = function(ticks, delta) {
         this.checkTTL();
     }
 };
+

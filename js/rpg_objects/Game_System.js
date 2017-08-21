@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_System
-//
-// The game object class for the system data.
-
 function Game_System() {
     this.initialize.apply(this, arguments);
 }
@@ -212,3 +207,4 @@ Game_System.prototype.replayWalkingBgm = function() {
 Game_System.prototype.saveWalkingBgm2 = function() {
 	this._walkingBgm = $dataMap.bgm;
 };
+

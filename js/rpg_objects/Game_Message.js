@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Message
-//
-// The game object class for the state of the message window that displays text
-// or selections, etc.
-
 function Game_Message() {
     this.initialize.apply(this, arguments);
 }
@@ -185,3 +179,4 @@ Game_Message.prototype.newPage = function() {
 Game_Message.prototype.allText = function() {
     return this._texts.join('\n');
 };
+

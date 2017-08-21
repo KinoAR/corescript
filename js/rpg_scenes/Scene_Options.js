@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Scene_Options
-//
-// The scene class of the options screen.
-
 function Scene_Options() {
     this.initialize.apply(this, arguments);
 }
@@ -29,3 +24,4 @@ Scene_Options.prototype.createOptionsWindow = function() {
     this._optionsWindow.setHandler('cancel', this.popScene.bind(this));
     this.addWindow(this._optionsWindow);
 };
+

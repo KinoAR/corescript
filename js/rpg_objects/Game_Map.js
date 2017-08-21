@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-// Game_Map
-//
-// The game object class for a map. It contains scrolling and passage
-// determination functions.
-
 function Game_Map() {
     this.initialize.apply(this, arguments);
 }
@@ -791,3 +785,4 @@ Game_Map.prototype.isAnyEventStarting = function() {
         return event.isStarting();
     });
 };
+

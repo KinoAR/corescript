@@ -1,8 +1,3 @@
-//-----------------------------------------------------------------------------
-// Window_SkillType
-//
-// The window for selecting a skill type on the skill screen.
-
 function Window_SkillType() {
     this.initialize.apply(this, arguments);
 }
@@ -64,3 +59,4 @@ Window_SkillType.prototype.selectLast = function() {
         this.select(0);
     }
 };
+

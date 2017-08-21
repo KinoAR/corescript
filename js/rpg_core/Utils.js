@@ -1,9 +1,3 @@
-//-----------------------------------------------------------------------------
-/**
- * The static class that defines utility methods.
- *
- * @class Utils
- */
 function Utils() {
     throw new Error('This is a static class');
 }
@@ -26,9 +20,7 @@ Utils.RPGMAKER_NAME = 'MV';
  * @type String
  * @final
  */
-Utils.RPGMAKER_VERSION = "1.4.1";
-
-Utils.RPGMAKER_ENGINE = "community-1.2c";
+Utils.RPGMAKER_VERSION = "1.5.0";
 
 /**
  * Checks whether the option is in the query string.
@@ -155,3 +147,4 @@ Utils.isSupportPassiveEvent = function() {
     Utils._supportPassiveEvent = passive;
     return passive;
 }
+

@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target":"es6"
+  },
+  "files": [
+    "./rmmv-pixi.d.ts"    
+  ],
+  "include": [
+    "./*",
+    "./plugins_dev/*.js",
+    "./plugins/*.js",
+    "./js/rpg_amaryllis/*.js",
+    "./js/rpg_windows/*.js",
+    "./js/rpg_core/*.js",
+    "./js/rpg_managers/*.js",
+    "./js/rpg_objects/*.js",
+    "./js/rpg_scenes/*.js",
+    "./js/rpg_sprites/*.js"
+  ]
+}

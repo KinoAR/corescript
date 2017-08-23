@@ -10,7 +10,8 @@
 * @type struct<WindowBasic>
 *
 * @help
-*
+* This plugin allows you to modify the size of each window
+* in RPGMakerMV by scene.
 */
 
 /*~struct~WindowBasic:

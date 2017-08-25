@@ -19,6 +19,6 @@ JSON.parse(readFileSync('./modules.json', 'utf8'))
 
 watch("./plugins", (name) => {
   copySync(`./${name}`, `./games/${gameFolderName}/js/plugins/`);
-  console.log(`/${name.split("/")[1]} plugin changed. Copy updated in ./games/${gameFolderName}/js/`); 
+  console.log(`${name.split("/")[1]} plugin changed. Copy updated in ./games/${gameFolderName}/js/plugins/`); 
 });
   

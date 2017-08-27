@@ -2,5 +2,6 @@
   "js/rpg_amaryllis/_header.js",
   "js/rpg_amaryllis/Window_Patches.js",
   "js/rpg_amaryllis/RM_Emitter.js",
+  "js/rpg_amaryllis/RM_Ticker.js",
   "js/rpg_amaryllis/Extensions.js"
 ]
